@@ -15,6 +15,6 @@ Some of the hash defines used :
 - ```fastio``` : A necessity especially in the field of Competitive Programming. The time saved using this is immense. [Here's an article on the same](https://www.geeksforgeeks.org/fast-io-for-competitive-programming/)
 - ```sz(q)``` : Used to find the size of a data structure ```q```, mainly used when iterating through the elements of a data structure you don't explicitly know the size of.
 
-Hope this summarizes the template well enough, you can always reach out to me if you'd like to suggest any changes or make any contributions of your own - that would be much appreciated. 
+Hope this summarizes the template well enough, you can always reach out to me if you'd like to suggest any changes or make any contributions of your own - that would be much appreciated. Many thanks to [Aneesh](https://github.com/aneesh2312) for his template, this is essentially a modification of that. Without his contribution I wouldn't even be typing this!
 
-Thanks a lot for reading through all this, have a great day ahead! : )
+Thanks a lot for reading through everything I've typed, hope you have a great day ahead! : )
