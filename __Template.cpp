@@ -1,4 +1,4 @@
-//Template Credits : https://github.com/aneesh2312 (Slightly modified)
+//Template from : https://github.com/kmvolv/CP-Template
 
 #pragma GCC optimize("O3")
 #include <bits/stdc++.h>
@@ -23,9 +23,8 @@
 #define fastio ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 #define all(x) x.begin(), x.end()
 #define ins insert
-#define lb lower_bound  // First ele NOT LESS than val
-#define ub upper_bound  // First ele GREATER than val
-#define deb cout<<"Bruh"<<endl;
+#define lb lower_bound  // First element NOT LESS than val
+#define ub upper_bound  // First element GREATER than val
 #define sz(q) (int)(q.size())
  
 using namespace std;
@@ -106,19 +105,6 @@ string dectobin(ll n)
     if(loc1 != string::npos)
         return s.substr(loc1);
     return "0";
-}
-
-// ll primes[] = {0,3,11,101,1009,10007,100003,1000003,10000019,100030001};
-
-mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
-mt19937_64 rng64(chrono::steady_clock::now().time_since_epoch().count());
-
-int randInt() {
-	return rng() % INT_MAX;
-}
-
-ll randLL() {
-	return rng64() % LLONG_MAX;
 }
 
 int main(){
