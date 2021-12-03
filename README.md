@@ -14,6 +14,7 @@ Some of the hash defines used :
 - ```all(x)``` : Super useful when using the STL ```sort()``` function since it saves the effort of writing ```x.begin(),x.end()```.
 - ```fastio``` : A necessity especially in the field of Competitive Programming. The time saved using this is astronomical. [Here's an article on the same](https://www.geeksforgeeks.org/fast-io-for-competitive-programming/)
 - ```sz(q)``` : Used to find the size of a data structure ```q```, mainly used when iterating through the elements of a data structure you don't explicitly know the size of.
+-```fo(a,b)``` : There are four such hash defines with similar function, which is to condense a for loop into as little characters as possible.
 
 Hope this summarizes the template well enough, you can always reach out to me if you'd like to suggest any changes or make any contributions of your own - that would be much appreciated. Many thanks to [Aneesh](https://github.com/aneesh2312) for sharing his template on his profile, this is essentially a modification of that. Without his contribution I wouldn't even be typing this!
 
